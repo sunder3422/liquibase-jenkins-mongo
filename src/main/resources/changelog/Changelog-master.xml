@@ -43,7 +43,7 @@
                 {
                 "name":"bageshware",
                 "state":"uttrakhand hills",
-                "zipcode":"294139"
+                "zipcode":"29139"
                 }
             </mongodb:document>
         </mongodb:insertOne>
