@@ -36,4 +36,16 @@
             </mongodb:document>
         </mongodb:insertOne>
     </changeSet>
+    <changeSet id="4" author="sunder_mehra">
+        <comment>added by singh</comment>
+        <mongodb:insertOne collectionName="towns_xml">
+            <mongodb:document>
+                {
+                "name":"bageshware",
+                "state":"uttrakhand hills",
+                "zipcode":"294139"
+                }
+            </mongodb:document>
+        </mongodb:insertOne>
+    </changeSet>
 </databaseChangeLog>
